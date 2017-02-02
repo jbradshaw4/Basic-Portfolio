@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+	color: #777777;
+	line-height: 25px;
+
+	
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#header {
+	background: #ffffff;
+	overflow: auto;
+}
+/*I tried border-bottom but it wouldn't span the lenght of the page.
+I thougt margin 100% would overide .container but it didn't so I put
+an <hr class="style"> in html but it does not appear the styling took effect*/
+hr.style{color: #cccccc;
+	size: 2px;
+}
+#name {
+	width: 250px;
+	height: 90px;
+	background: #4aaaa5;
+	float: left;
+	font-family: 'Georgia',Times,Times New Roman,serif;
+	line-height: 90px;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+.nav{
+	float: right;
+	margin-top: 25px;
+	padding-right: 50px;
+	height: 25px;	
+}
+.nav a {
+	color: #999999;
+	display: inline-block;
+	text-decoration: none;
+}
+
+li{display: inline-block;
+	border-right: 1px solid #cccccc;
+	padding: 5px;
+}
+#last-line {
+	border-right: none;
+}
+
+#big-container {
+	background-image: url(../images/cork-wallet.png);
+	margin-top: 50px;
+}
+
+.bio-container {
+	width: 650px;
+	background: #ffffff;
+	float: left;
+	border: 1px solid #cccccc;
+}
+p{	margin-left: 10px;
+	
+}
+h1{
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Georgia',Times,Times New Roman,serif;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+
+}
+.sidebar {
+	width: 270px;
+	background: #ffffff;
+	float: right;
+	border: 1px solid #cccccc;
+}
+
+
+
